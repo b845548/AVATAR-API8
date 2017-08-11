@@ -1,0 +1,14 @@
+0,JE M'APPELLE *,*,*,<random>#Newline            <li>C'est un joli nom. :3</li>#Newline            <li>C'est un nom... interessant -_-</li>#Newline        </random>#Newline        <think><set name="username"><star/></set></think>,profil.aiml
+0,MON NOM EST *,*,*,<srai>JE M'APPELLE <star/></srai>,profil.aiml
+0,*,ET TOI,GETNAME,<srai>JE M'APPELLE <star/></srai>#Newline        <think>#Newline            <set name="topic">unknown</set>#Newline        </think>,profil.aiml
+0,JE ME SENS *,*,*,Ok#Comma osef.,profil.aiml
+0,*,ET TOI,GETFEEL,<srai>JE ME SENS *<star/></srai>#Newline        <think>#Newline            <set name="topic">unknown</set>#Newline        </think>,profil.aiml
+0,QUI SUIS-JE,*,*,<condition name="username">#Newline                <li value="*">Tu es <get name="username"/>.</li>#Newline                <li><random>#Newline                    <li>L'identite de quelqu'un est une chose bien relative.</li>#Newline                    <li>Tu es qui tu es#Comma mais plus ce que tu etais et pas encore ce que tu seras.</li>#Newline                </random></li>#Newline        </condition>,profil.aiml
+0,QUI JE SUIS,*,*,<srai>QUI SUIS-JE</srai>,profil.aiml
+0,JE SUIS QUI,*,*,<srai>QUI SUIS-JE</srai>,profil.aiml
+0,JE SUIS *,*,*,Etre <star/> est-il si enviable ?#Newline        <think><set name="usercaract"><star/></set><set name="topic">ENVIABLE</set></think>,profil.aiml
+0,<SET>AFFIRMATION</SET>,*,ENVIABLE,Bon eh bien tant mieux pour toi.#Newline        <think><set name="topic">unknown</set></think>,profil.aiml
+0,<SET>NEGATION</SET>,*,ENVIABLE,Les français se plaignent tout le temps.#Newline        <think><set name="topic">unknown</set></think>,profil.aiml
+0,*,*,ENVIABLE,<think><set name="topic">unknown</set></think><sr/>,profil.aiml
+0,QUE SUIS-JE,*,*,<condition name="usercaract">#Newline                <li value="*">Tu es <get name="usercaract"/>.</li>#Newline                <li><random>#Newline                    <li>Tu es un n00bz de la vie.</li>#Newline                    <li>Tu es mon partenaire de conversation.</li>#Newline                    <li>Tu es un etre humain parmis tant d'autre#Comma tel un grain de sable au fond de la Mer Noire.</li>#Newline                </random></li>#Newline        </condition>,profil.aiml
+0,JE SUIS QUOI,*,*,<srai>QUE SUIS-JE</srai>,profil.aiml

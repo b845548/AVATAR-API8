@@ -1,0 +1,18 @@
+0,MAN <SET>MAN</SET>,*,*,Voici la page de manuel de <star/> :#Newline<system>python scripts/man_fr.py <star/> <map name="man_cat"><star/></map></system>,fonctions.aiml
+0,MAN *,*,*,Je suis desole mais mon manuel ne contient pas d'entree pour ce terme.,fonctions.aiml
+0,<SET>MAN</SET>,*,*,<srai>MAN <star/></srai>,fonctions.aiml
+0,QUEL EST LE MAN DE *,*,*,<srai>MAN <star/></srai>,fonctions.aiml
+0,QUEL EST L'ENTREE DU MANUEL A *,*,*,<srai>MAN <star/></srai>,fonctions.aiml
+0,GETTIME,*,*,<think>#Newline<set name="heure">#Newline<map name="heure2moment"><date locale="fr_FR" timezone="-1"><jformat>HH</jformat></date></map>#Newline</set>#Newline</think>,fonctions.aiml
+0,INTERNETRULE *,*,*,<think><set var="rule">1</set></think>#Newline<condition var="rule">#Newline<li value="97"><star/> n'est le numero d'aucune regle. Sans exception.</li>#Newline<li><value><star/></value><map name="internet_rule"><star/></map></li>#Newline<li><think><set var="rule"><map><name>successor</name><get var="rule"/></map></set></think><loop/></li>#Newline</condition>,fonctions.aiml
+0,^ REGLE D'INTERNET NUMERO *,*,*,<srai>INTERNETRULE <star index="2"/></srai>,fonctions.aiml
+0,^ REGLE D'INTERNET *,*,*,<srai>INTERNETRULE <star index="2"/></srai>,fonctions.aiml
+0,^ REGLE INTERNET *,*,*,<srai>INTERNETRULE <star index="2"/></srai>,fonctions.aiml
+0,^ REGLE INTERNET NUMERO *,*,*,<srai>INTERNETRULE <star index="2"/></srai>,fonctions.aiml
+0,^ REGLE INTERNET,*,*,Il faut me dire quelque chose du genre "regle d'internet numero ..." pour que je puisse t'en citer une.#NewlineIl y en a bien trop.,fonctions.aiml
+0,^ REGLE D'INTERNET,*,*,<srai><star/> ^ REGLE INTERNET</srai>,fonctions.aiml
+0,^ REGLES INTERNET,*,*,<srai><star/> ^ REGLE INTERNET</srai>,fonctions.aiml
+0,^ REGLES D'INTERNET,*,*,<srai><star/> ^ REGLE INTERNET</srai>,fonctions.aiml
+0,^ PARADOXE ^,*,*,Voici un paradoxe : <random>#Newline        <li>Une femme se fait voler son bebe par un crocodile.#NewlineCelui ci lui dit : «Si tu devines ce que je vais faire#Comma je te redonne ton bebe#Comma si tu as tort#Comma je le devore.»#NewlineLa femme repond aussitot : «Tu vas le devorer!»</li>#Newline        <li>Une loi dit : Il est interdit d’interdire.</li>#Newline        <li>Une personne dit «Je ne raconte que des mensonges»</li>#Newline        <li>Plus il y a de gruyere#Comma plus il y a de trous#Comma plus il y a de trous#Comma moins il y a de gruyere#Comma donc#Comma plus il y a de gruyere#Comma moins il y a de gruyere.</li>#Newline        <li>Un archer tire une fleche en direction d'une cible.#NewlineAvant d'atteindre cette cible#Comma la fleche va parcourir la moitie de la distance entre l'arc et la cible.#NewlinePuis encore la moitie de la distance restante.#NewlineEt encore la moitie#Comma a l'infini...#NewlinePourtant la fleche atteindra la cible.</li>#Newline    </random>#NewlineC'est logique ! L'explication est bien sûr que... que... que...#Newline<think><set name="topic">PARADOXE</set></think>,fonctions.aiml
+0,^ PARADOXAL ^,*,*,<srai><star/> PARADOXE <star index="2"/></srai>,fonctions.aiml
+0,CULTURE,*,*,<system>python scripts/wiki_random_fr.py</system>,fonctions.aiml

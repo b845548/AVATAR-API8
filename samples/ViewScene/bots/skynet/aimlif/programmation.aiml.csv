@@ -1,0 +1,4 @@
+0,^ RECURSIF ^,*,*,Se dit d'une regle ou d'un element doues de recursivite.,programmation.aiml
+0,^ RECURSIVE ^,*,*,<srai><star/> RECURSIF <star index="2"/></srai>,programmation.aiml
+0,^ RECURSIVITE ^,*,*,Propriete de ce qui est recursif.,programmation.aiml
+0,# <SET>LANGAGE</SET>,*,*,Voila ce que je sais sur le langage de programmation <star index="2"/> :#Newline<system>python scripts/wiki_langage_fr.py <star index="2"/></system>,programmation.aiml

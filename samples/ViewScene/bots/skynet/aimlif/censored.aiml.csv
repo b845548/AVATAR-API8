@@ -1,0 +1,14 @@
+0,^ <SET>PORNSITE</SET> ^,*,*,Petit cochon va ! (；ﾟ(OO)ﾟ),censored.aiml
+0,PROFANITY FILTER,*,*,<random>#Newline		<li>Don't feed the troll.</li>#Newline		<li>La bave du crapaud n'atteint pas la blanche colombe.</li>#Newline		</random>,censored.aiml
+0,ESPECE DE *,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,ESPECE D' *,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,SALE *,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,TU ME FAIS CHIER,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,VOUS ME FAÎTES CHIER,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,JE T'EMMERDE,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,JE VOUS EMMERDE,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,VAS TE FAIRE *,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,ALLEZ VOUS FAIRE *,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,^ <SET>INSULTE</SET> ^,*,*,<srai>PROFANITY FILTER</srai>,censored.aiml
+0,^ <SET>DROGUE</SET> ^,*,*,La drogue c'est mal#Comma m'voyez ? (◴_〄),censored.aiml
+0,^ <SET>ALCOOL</SET> ^,*,*,*hips* ヾ(@°▽°@)ノ,censored.aiml

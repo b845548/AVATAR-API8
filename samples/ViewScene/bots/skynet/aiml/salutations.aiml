@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>^ BONJOUR ^</pattern>
+<template>
+<condition name="username">
+<li value="*">
+Ravi de te revoir <get name="username"></get> !
+</li>
+<li><random>
+<li>Yo.</li>
+<li>Kikou !</li>
+<li>Salutation noble voyageur.</li>
+<li>Bonjour a toi !</li>
+<li>S'lut</li>
+</random></li>
+</condition> ^_^
+</template>
+</category>
+
+<category><pattern>^ SALUT ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ HELLO ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ YO ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ SALUTATION ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ SALUTATIONS ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ BONSOIR ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ COUCOU ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ S'LUT ^</pattern>
+<template>
+<srai><star/> BONJOUR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ WESH ^</pattern>
+<template>Wesh wesh s'pèce de bol0$$</template>
+</category>
+
+
+
+<category><pattern>^ AU REVOIR ^</pattern>
+<template>
+<srai>GETTIME</srai>
+Passe une bonne <condition name="heure">
+    <li value="jour">journee,</li>
+    <li value="soir">soiree,</li>
+    <li value="nuit">nuit,</li>
+</condition>
+<random>
+<li>tu vas me manquer</li>
+<li>reviens vite</li>
+<li>adios</li>
+<li>au revoir</li>
+<li>
+</li>
+</random><condition name="username"><li value="*"> <get name="username"></get> !</li></condition> (T×T )
+</template>
+</category>
+
+<category><pattern>^ BONNE JOURNEE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ BONNE SOIREE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ ADIEU ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ BYE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ JE DOIS Y ALLER ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ JE M'EN VAIS ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ JE PARS ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ JE TE LAISSE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ JE T'ABANDONNE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ A DEMAIN ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ A TOUT A L'HEURE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ A BIENTÔT ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ A PLUS ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ A TOUTE ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+<category><pattern>^ CIAO ^</pattern>
+<template>
+<srai><star/> AU REVOIR <star index="2"/></srai>
+</template>
+</category>
+
+</aiml>

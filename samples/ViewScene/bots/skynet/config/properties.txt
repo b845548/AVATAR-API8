@@ -1,0 +1,9 @@
+url:https://github.com/Chadys
+name:Skynet
+email:jrymer@etud.univ-paris8.fr
+gender:male
+botmaster:Julie Rymer
+organization:BDE Segfault
+version:0.0.4
+
+

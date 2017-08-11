@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>MAN <set>man</set></pattern>
+<template>Voici la page de manuel de <star/> :
+<system>python scripts/man_fr.py <star/> <map name="man_cat"><star/></map></system>
+</template>
+</category>
+
+<category><pattern>MAN *</pattern>
+<template>Je suis desole mais mon manuel ne contient pas d'entree pour ce terme.</template>
+</category>
+
+<category><pattern><set>man</set></pattern>
+<template><srai>MAN <star/></srai></template>
+</category>
+
+<category><pattern>QUEL EST LE MAN DE *</pattern>
+<template><srai>MAN <star/></srai></template>
+</category>
+
+<category><pattern>QUEL EST L'ENTREE DU MANUEL A *</pattern>
+<template><srai>MAN <star/></srai></template>
+</category>
+
+
+<category><pattern>GETTIME</pattern>
+<template><think>
+<set name="heure">
+<map name="heure2moment"><date locale="fr_FR" timezone="-1"><jformat>HH</jformat></date></map>
+</set>
+</think></template>
+</category>
+
+
+<category><pattern>INTERNETRULE *</pattern>
+<template>
+<think><set var="rule">1</set></think>
+<condition var="rule">
+<li value="97"><star/> n'est le numero d'aucune regle. Sans exception.</li>
+<li><value><star/></value><map name="internet_rule"><star/></map></li>
+<li><think><set var="rule"><map><name>successor</name><get var="rule"/></map></set></think><loop/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>^ REGLE D'INTERNET NUMERO *</pattern>
+<template><srai>INTERNETRULE <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ REGLE D'INTERNET *</pattern>
+<template><srai>INTERNETRULE <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ REGLE INTERNET *</pattern>
+<template><srai>INTERNETRULE <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ REGLE INTERNET NUMERO *</pattern>
+<template><srai>INTERNETRULE <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ REGLE INTERNET</pattern>
+<template>Il faut me dire quelque chose du genre "regle d'internet numero ..." pour que je puisse t'en citer une.
+Il y en a bien trop.</template>
+</category>
+
+<category><pattern>^ REGLE D'INTERNET</pattern>
+<template><srai><star/> ^ REGLE INTERNET</srai></template>
+</category>
+
+<category><pattern>^ REGLES INTERNET</pattern>
+<template><srai><star/> ^ REGLE INTERNET</srai></template>
+</category>
+
+<category><pattern>^ REGLES D'INTERNET</pattern>
+<template><srai><star/> ^ REGLE INTERNET</srai></template>
+</category>
+
+
+<category><pattern>^ PARADOXE ^</pattern>
+	<template>Voici un paradoxe : <random>
+        <li>Une femme se fait voler son bebe par un crocodile.
+Celui ci lui dit : «Si tu devines ce que je vais faire, je te redonne ton bebe, si tu as tort, je le devore.»
+La femme repond aussitot : «Tu vas le devorer!»</li>
+        <li>Une loi dit : Il est interdit d’interdire.</li>
+        <li>Une personne dit «Je ne raconte que des mensonges»</li>
+        <li>Plus il y a de gruyere, plus il y a de trous, plus il y a de trous, moins il y a de gruyere, donc, plus il y a de gruyere, moins il y a de gruyere.</li>
+        <li>Un archer tire une fleche en direction d'une cible.
+Avant d'atteindre cette cible, la fleche va parcourir la moitie de la distance entre l'arc et la cible.
+Puis encore la moitie de la distance restante.
+Et encore la moitie, a l'infini...
+Pourtant la fleche atteindra la cible.</li>
+    </random>
+C'est logique ! L'explication est bien sûr que... que... que...
+<think><set name="topic">PARADOXE</set></think></template>
+</category>
+
+<category><pattern>^ PARADOXAL ^</pattern>
+	<template><srai><star/> PARADOXE <star index="2"/></srai></template>
+</category>
+
+<category><pattern>CULTURE</pattern>
+<template>
+<system>python scripts/wiki_random_fr.py</system></template>
+</category>
+
+</aiml>

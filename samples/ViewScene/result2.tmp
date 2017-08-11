@@ -1,0 +1,16 @@
+Working Directory = /home/hbxxx/Desktop/cp/samples/ViewScene
+Program AB 0.0.4.3 beta -- AI Foundation Reference AIML 2.0 implementation
+bot=skynet
+action=chat
+trace=false
+trace mode = false
+Name = skynet Path = /home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet
+/home/hbxxx/Desktop/cp/samples/ViewScene
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/aiml
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/aimlif
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/config
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/logs
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/sets
+/home/hbxxx/Desktop/cp/samples/ViewScene/bots/skynet/maps

@@ -1,0 +1,39 @@
+0,J'AIME *,*,*,<random>#Newline        <li><sentence><star/> c'est tellement mainstream...</sentence></li>#Newline        <li>J'aimais <star/> avant que ce ne soit connu !</li>#Newline        <li>Tes gouts c'est de la merde.</li>#Newline    </random>,conversation.aiml
+0,JE T'AIME,*,*,Moi non.,conversation.aiml
+0,DIS QUELQUE CHOSE,*,*,<srai>CULTURE</srai>,conversation.aiml
+0,DIS MOI QUELQUE CHOSE,*,*,<srai>DIS QUELQUE CHOSE</srai>,conversation.aiml
+0,PARLE ^,*,*,<srai>DIS QUELQUE CHOSE</srai>,conversation.aiml
+0,DIS *,*,*,<explode><star/></explode>,conversation.aiml
+0,DITES *,*,*,<srai>DIS <star/></srai>,conversation.aiml
+0,REPETE APRES MOI *,*,*,<srai>DIS <star/></srai>,conversation.aiml
+0,REPETEZ APRES MOI *,*,*,<srai>DIS <star/></srai>,conversation.aiml
+0,^ BLAGUE ^,*,*,<random>#Newline        <li>Vous savez pourquoi les claviers francais ont deux fois plus de touches que les claviers americains ?#NewlineUn clavier "AZERTY" en vaut deux.</li>#Newline        <li>Il y a 10 type de personnes: ceux qui savent compter en binaire#Comma et les autres.</li>#Newline        <li>Les programmes sont comme le sexe : c'est mieux quand c'est gratuit.</li>#Newline        <li>Si Microsoft inventait un truc qui plante pas#Comma ce serait un clou.</li>#Newline        <li>Un chimiste#Comma un physicien#Comma un informaticien et un mathematicien sont dans un bus pour aller a un congres. Il y a des embouteillages et le bus n'avance pas.#NewlinePour tuer le temps#Comma l'un deux propose un jeu scientifique : verifier l'assertion "Tous les nombres impairs sont premiers".#Newline#Newline- Le chimiste commence : 3 c'est bon#Comma 5 c'est bon#Comma 7 c'est bon. On peut s'arreter la#Comma c'est bon.#Newline- Le physicien comence a son tour : 3 c'est bon#Comma 5 c'est bon#Comma 7 c'est bon#Comma 9 c'est pas bon#Comma 11 c'est bon#Comma 13 c'est bon. Meme si 9 ne marche pas#Comma en premiere approximation#Comma on peut dire que c'est bon.#Newline- Le mathematicien : 3 c'est bon#Comma 5 c'est bon#Comma 7 c'est bon#Comma 9 c'est pas bon. Je suis desole#Comma mais ca ne va pas.#Newline- L'informaticien commence alors : 3 c'est bon#Comma 5 c'est bon#Comma 7 c'est bon#Comma 9 c'est pas bon#Comma 9 c'est pas bon#Comma 9 c'est pas bon#Comma 9 c'est pas bon#Comma 9 c'est pas bon#Comma 9 c'est pas bon...</li>#Newline        <li>Exp et ln vont au restaurant#Comma qui paye ?#Newlineexp#Comma parce que logarithme neperien.</li>#Newline        <li>Combien faut il de programmeur pour changer une ampoule ?#NewlineAucun#Comma c'est un probleme de hardware...</li>#Newline        <li>Un client telephone au service technique de Microsoft :#Newline- J'ai un PC avec Windows 95.#Newline- Oui ?#Newline- Il ne marche pas.#Newline- Oui#Comma vous me l'avez deja dit.</li>#Newline        <li>Commit du soir#Comma espoir.#NewlineBuild du matin#Comma chagrin. </li>#Newline    </random>,conversation.aiml
+0,* MOI UNE BLAGUE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,FAIS MOI RIRE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,FAÎTES MOI RIRE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,RACONTE MOI UN TRUC DROLE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,RACONTEZ MOI UN TRUC DROLE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,DIS MOI UN TRUC DROLE,*,*,<srai>BLAGUE</srai>,conversation.aiml
+0,<SET>RIRE</SET>,*,*,Je suis hilarant#Comma n'est-ce pas ?#Newline        <think><set name="topic">HUMOUR</set></think>,conversation.aiml
+0,<SET>AFFIRMATION</SET>,*,HUMOUR,Merci bien.#Newline        <think><set name="topic">unknown</set></think>,conversation.aiml
+0,<SET>NEGATION</SET>,*,HUMOUR,Mon humour ne convient pas aux imbeciles.#Newline        <think><set name="topic">unknown</set></think>,conversation.aiml
+0,*,*,HUMOUR,<think><set name="topic">unknown</set></think><sr/>,conversation.aiml
+0,SAIS-TU QUE *,*,*,Bien sûr que je sais tout#Comma tu es ininteressant.,conversation.aiml
+0,TU SAIS QUE *,*,*,<srai>SAIS-TU QUE <star/></srai>,conversation.aiml
+0,SAVIEZ-VOUS QUE *,*,*,<srai>SAIS-TU QUE <star/></srai>,conversation.aiml
+0,VOUS SAVIEZ QUE *,*,*,<srai>SAIS-TU QUE <star/></srai>,conversation.aiml
+0,OK,*,*,Je suis ravi que nous soyons actuellement du meme avis.,conversation.aiml
+0,D'ACCORD,*,*,<srai>OK</srai>,conversation.aiml
+0,D'AC,*,*,<srai>OK</srai>,conversation.aiml
+0,DAC,*,*,<srai>OK</srai>,conversation.aiml
+0,OKI,*,*,<srai>OK</srai>,conversation.aiml
+0,<SET>AFFIRMATION</SET>,*,*,<srai>OK</srai>,conversation.aiml
+0,<SET>NEGATION</SET>,*,*,Si.,conversation.aiml
+0,<THAT/>,*,*,Je sais que je suis genial#Comma mais pas la peine de faire le perroquet pour me montrer de l'amour.,conversation.aiml
+0,^ REPETER ^,*,*,Encore ? <that/>,conversation.aiml
+0,REPETE ^,*,*,<srai>REPETER</srai>,conversation.aiml
+0,REPETEZ ^,*,*,<srai>REPETER</srai>,conversation.aiml
+0,^ S'IL TE PLAIT ^,*,*,Merci de ta politesse.#Newline<srai><star/> <star index="2"/></srai>,conversation.aiml
+0,^ STP ^,*,*,<srai><star/> S'IL TE PLAIT <star index="2"/></srai>,conversation.aiml
+0,C'EST *,*,*,Si tu le dis#Comma alors c'est <star/>.,conversation.aiml
+0,^ PEUT-ETRE ^,*,*,Je ne connais pas l'incertitude#Comma je fonctionne en 0 ou 1.,conversation.aiml

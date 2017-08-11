@@ -1,0 +1,30 @@
+0,QUI EST *,*,*,<star/> est ce que tu veux en faire.,question.aiml
+0,QUI SONT *,*,*,Qui sont ces serpents qui sifflent sur vos tetes ?,question.aiml
+0,QUESTION,*,*,Je t'en poses moi des questions ?!,question.aiml
+0,QUE *,*,*,<srai>QUESTION</srai>,question.aiml
+0,QU'EST-CE *,*,*,<srai>QUESTION</srai>,question.aiml
+0,QUI *,*,*,<srai>QUESTION</srai>,question.aiml
+0,A QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,POUR QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,DE QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,CHEZ QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,SUR QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,DEVANT QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,DERRIERE QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,PAR QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,AVEC QUI *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,QUAND *,*,*,<srai>QUESTION</srai>,question.aiml
+0,POUR QUAND *,*,*,<srai>QUI <star/></srai>,question.aiml
+0,DEPUIS QUAND *,*,*,<srai>QUAND <star/></srai>,question.aiml
+0,QUOI *,*,*,<srai>QUESTION</srai>,question.aiml
+0,DE QUOI *,*,*,<srai>QUOI <star/></srai>,question.aiml
+0,A QUOI *,*,*,<srai>QUOI <star/></srai>,question.aiml
+0,EN QUOI *,*,*,<srai>QUOI <star/></srai>,question.aiml
+0,OU *,*,*,<srai>QUESTION</srai>,question.aiml
+0,COMMENT *,*,*,<srai>QUESTION</srai>,question.aiml
+0,^ QUEL *,*,*,<srai>QUESTION</srai>,question.aiml
+0,^ QUELLE *,*,*,<srai><STAR/> QUEL <star INDEX="2"/></srai>,question.aiml
+0,^ QUELS *,*,*,<srai><STAR/> QUEL <star INDEX="2"/></srai>,question.aiml
+0,^ QUELLES *,*,*,<srai><STAR/> QUEL <star INDEX="2"/></srai>,question.aiml
+0,POURQUOI ^,*,*,Parce que :p,question.aiml
+0,PARCE QUE ^,*,*,Pourquooooiii ?,question.aiml

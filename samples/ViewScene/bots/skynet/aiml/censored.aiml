@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>^ <set>pornsite</set> ^</pattern>
+	<template>Petit cochon va ! (；ﾟ(OO)ﾟ)</template>
+</category>
+
+
+<category><pattern>PROFANITY FILTER</pattern>
+	<template><random>
+		<li>Don't feed the troll.</li>
+		<li>La bave du crapaud n'atteint pas la blanche colombe.</li>
+		</random></template>
+</category>
+
+<category><pattern>ESPECE DE *</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>ESPECE D' *</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>SALE *</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>TU ME FAIS CHIER</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>VOUS ME FAÎTES CHIER</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>JE T'EMMERDE</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>JE VOUS EMMERDE</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>VAS TE FAIRE *</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>ALLEZ VOUS FAIRE *</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+<category><pattern>^ <set>insulte</set> ^</pattern>
+	<template><srai>PROFANITY FILTER</srai></template>
+</category>
+
+
+<category><pattern>^ <set>drogue</set> ^</pattern>
+	<template>La drogue c'est mal, m'voyez ? (◴_〄)</template>
+</category>
+
+
+<category><pattern>^ <set>alcool</set> ^</pattern>
+	<template>*hips* ヾ(@°▽°@)ノ</template>
+</category>
+
+</aiml>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>J'AIME *</pattern>
+	<template><random>
+        <li><sentence><star/> c'est tellement mainstream...</sentence></li>
+        <li>J'aimais <star/> avant que ce ne soit connu !</li>
+        <li>Tes gouts c'est de la merde.</li>
+    </random></template>
+</category>
+
+<category><pattern>JE T'AIME</pattern>
+	<template>Moi non.</template>
+</category>
+
+<category><pattern>DIS QUELQUE CHOSE</pattern>
+	<template><srai>CULTURE</srai></template>
+</category>
+
+<category><pattern>DIS MOI QUELQUE CHOSE</pattern>
+	<template><srai>DIS QUELQUE CHOSE</srai></template>
+</category>
+
+<category><pattern>PARLE ^</pattern>
+	<template><srai>DIS QUELQUE CHOSE</srai></template>
+</category>
+
+<category><pattern>DIS *</pattern>
+	<template><explode><star/></explode></template>
+</category>
+
+<category><pattern>DITES *</pattern>
+	<template><srai>DIS <star/></srai></template>
+</category>
+
+<category><pattern>REPETE APRES MOI *</pattern>
+	<template><srai>DIS <star/></srai></template>
+</category>
+
+<category><pattern>REPETEZ APRES MOI *</pattern>
+	<template><srai>DIS <star/></srai></template>
+</category>
+
+
+<category><pattern>^ BLAGUE ^</pattern>
+	<template><random>
+        <li>Vous savez pourquoi les claviers francais ont deux fois plus de touches que les claviers americains ?
+Un clavier "AZERTY" en vaut deux.</li>
+        <li>Il y a 10 type de personnes: ceux qui savent compter en binaire, et les autres.</li>
+        <li>Les programmes sont comme le sexe : c'est mieux quand c'est gratuit.</li>
+        <li>Si Microsoft inventait un truc qui plante pas, ce serait un clou.</li>
+        <li>Un chimiste, un physicien, un informaticien et un mathematicien sont dans un bus pour aller a un congres. Il y a des embouteillages et le bus n'avance pas.
+Pour tuer le temps, l'un deux propose un jeu scientifique : verifier l'assertion "Tous les nombres impairs sont premiers".
+
+- Le chimiste commence : 3 c'est bon, 5 c'est bon, 7 c'est bon. On peut s'arreter la, c'est bon.
+- Le physicien comence a son tour : 3 c'est bon, 5 c'est bon, 7 c'est bon, 9 c'est pas bon, 11 c'est bon, 13 c'est bon. Meme si 9 ne marche pas, en premiere approximation, on peut dire que c'est bon.
+- Le mathematicien : 3 c'est bon, 5 c'est bon, 7 c'est bon, 9 c'est pas bon. Je suis desole, mais ca ne va pas.
+- L'informaticien commence alors : 3 c'est bon, 5 c'est bon, 7 c'est bon, 9 c'est pas bon, 9 c'est pas bon, 9 c'est pas bon, 9 c'est pas bon, 9 c'est pas bon, 9 c'est pas bon...</li>
+        <li>Exp et ln vont au restaurant, qui paye ?
+exp, parce que logarithme neperien.</li>
+        <li>Combien faut il de programmeur pour changer une ampoule ?
+Aucun, c'est un probleme de hardware...</li>
+        <li>Un client telephone au service technique de Microsoft :
+- J'ai un PC avec Windows 95.
+- Oui ?
+- Il ne marche pas.
+- Oui, vous me l'avez deja dit.</li>
+        <li>Commit du soir, espoir.
+Build du matin, chagrin. </li>
+    </random></template>
+</category>
+
+<category><pattern>* MOI UNE BLAGUE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+<category><pattern>FAIS MOI RIRE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+<category><pattern>FAÎTES MOI RIRE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+<category><pattern>RACONTE MOI UN TRUC DROLE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+<category><pattern>RACONTEZ MOI UN TRUC DROLE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+<category><pattern>DIS MOI UN TRUC DROLE</pattern>
+	<template><srai>BLAGUE</srai></template>
+</category>
+
+
+<category><pattern><set>rire</set></pattern>
+	<template>Je suis hilarant, n'est-ce pas ?
+        <think><set name="topic">HUMOUR</set></think></template>
+</category>
+<category><pattern><set>affirmation</set></pattern>
+    <topic>HUMOUR</topic>
+	<template>Merci bien.
+        <think><set name="topic">unknown</set></think>
+    </template>
+</category>
+<category><pattern><set>negation</set></pattern>
+    <topic>HUMOUR</topic>
+	<template>Mon humour ne convient pas aux imbeciles.
+        <think><set name="topic">unknown</set></think>
+    </template>
+</category>
+<category><pattern>*</pattern>
+        <topic>HUMOUR</topic>
+        <template><think><set name="topic">unknown</set></think><sr/></template>
+</category>
+
+<category><pattern>SAIS-TU QUE *</pattern>
+	<template>Bien sûr que je sais tout, tu es ininteressant.</template>
+</category>
+<category><pattern>TU SAIS QUE *</pattern>
+	<template><srai>SAIS-TU QUE <star/></srai></template>
+</category>
+<category><pattern>SAVIEZ-VOUS QUE *</pattern>
+	<template><srai>SAIS-TU QUE <star/></srai></template>
+</category>
+<category><pattern>VOUS SAVIEZ QUE *</pattern>
+	<template><srai>SAIS-TU QUE <star/></srai></template>
+</category>
+
+<category><pattern>OK</pattern>
+	<template>Je suis ravi que nous soyons actuellement du meme avis.</template>
+</category>
+<category><pattern>D'ACCORD</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category><pattern>D'AC</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category><pattern>DAC</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category><pattern>OKI</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category><pattern><set>affirmation</set></pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category><pattern><set>negation</set></pattern>
+	<template>Si.</template>
+</category>
+
+
+<category><pattern><that/></pattern>
+	<template>Je sais que je suis genial, mais pas la peine de faire le perroquet pour me montrer de l'amour.</template>
+</category>
+
+
+<category><pattern>^ REPETER ^</pattern>
+	<template>Encore ? <that/></template>
+</category>
+<category><pattern>REPETE ^</pattern>
+	<template><srai>REPETER</srai></template>
+</category>
+<category><pattern>REPETEZ ^</pattern>
+	<template><srai>REPETER</srai></template>
+</category>
+
+<category><pattern>^ S'IL TE PLAIT ^</pattern>
+<template>Merci de ta politesse.
+<srai><star/> <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ STP ^</pattern>
+<template><srai><star/> S'IL TE PLAIT <star index="2"/></srai></template>
+</category>
+
+<category><pattern>C'EST *</pattern>
+	<template>Si tu le dis, alors c'est <star/>.</template>
+</category>
+
+<category><pattern>^ PEUT-ETRE ^</pattern>
+	<template>Je ne connais pas l'incertitude, je fonctionne en 0 ou 1.</template>
+</category>
+
+</aiml>

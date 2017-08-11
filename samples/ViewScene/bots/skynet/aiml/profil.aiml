@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>JE M'APPELLE *</pattern>
+	<template><random>
+            <li>C'est un joli nom. :3</li>
+            <li>C'est un nom... interessant -_-</li>
+        </random>
+        <think><set name="username"><star/></set></think>
+    </template>
+</category>
+
+<category><pattern>MON NOM EST *</pattern>
+	<template><srai>JE M'APPELLE <star/></srai></template>
+</category>
+
+<category><pattern>*</pattern>
+    <that>Et toi</that>
+    <topic>GETNAME</topic>
+	<template>
+        <srai>JE M'APPELLE <star/></srai>
+        <think>
+            <set name="topic">unknown</set>
+        </think>
+    </template>
+</category>
+
+
+<category><pattern>JE ME SENS *</pattern>
+	<template>Ok, osef.</template>
+</category>
+
+<category><pattern>*</pattern>
+    <that>Et toi</that>
+    <topic>GETFEEL</topic>
+	<template>
+        <srai>JE ME SENS *<star/></srai>
+        <think>
+            <set name="topic">unknown</set>
+        </think>
+    </template>
+</category>
+
+
+<category><pattern>QUI SUIS-JE</pattern>
+	<template><condition name="username">
+                <li value="*">Tu es <get name="username"/>.</li>
+                <li><random>
+                    <li>L'identite de quelqu'un est une chose bien relative.</li>
+                    <li>Tu es qui tu es, mais plus ce que tu etais et pas encore ce que tu seras.</li>
+                </random></li>
+        </condition></template>
+</category>
+
+<category><pattern>QUI JE SUIS</pattern>
+	<template><srai>QUI SUIS-JE</srai></template>
+</category>
+
+<category><pattern>JE SUIS QUI</pattern>
+	<template><srai>QUI SUIS-JE</srai></template>
+</category>
+
+
+<category><pattern>JE SUIS * </pattern>
+	<template>Etre <star/> est-il si enviable ?
+        <think><set name="usercaract"><star/></set><set name="topic">ENVIABLE</set></think></template>
+</category>
+<category><pattern><set>affirmation</set></pattern>
+    <topic>ENVIABLE</topic>
+	<template>Bon eh bien tant mieux pour toi.
+        <think><set name="topic">unknown</set></think>
+    </template>
+</category>
+<category><pattern><set>negation</set></pattern>
+    <topic>ENVIABLE</topic>
+	<template>Les français se plaignent tout le temps.
+        <think><set name="topic">unknown</set></think>
+    </template>
+</category>
+<category><pattern>*</pattern>
+    <topic>ENVIABLE</topic>
+	<template><think><set name="topic">unknown</set></think><sr/></template>
+</category>
+
+<category><pattern>QUE SUIS-JE</pattern>
+	<template><condition name="usercaract">
+                <li value="*">Tu es <get name="usercaract"/>.</li>
+                <li><random>
+                    <li>Tu es un n00bz de la vie.</li>
+                    <li>Tu es mon partenaire de conversation.</li>
+                    <li>Tu es un etre humain parmis tant d'autre, tel un grain de sable au fond de la Mer Noire.</li>
+                </random></li>
+        </condition></template>
+</category>
+
+<category><pattern>JE SUIS QUOI</pattern>
+	<template><srai>QUE SUIS-JE</srai></template>
+</category>
+
+</aiml>

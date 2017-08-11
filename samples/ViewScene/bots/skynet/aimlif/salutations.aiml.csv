@@ -1,0 +1,26 @@
+0,^ BONJOUR ^,*,*,<condition name="username">#Newline<li value="*">#NewlineRavi de te revoir <get name="username"/> !#Newline</li>#Newline<li><random>#Newline<li>Yo.</li>#Newline<li>Kikou !</li>#Newline<li>Salutation noble voyageur.</li>#Newline<li>Bonjour a toi !</li>#Newline<li>S'lut</li>#Newline</random></li>#Newline</condition> ^_^,salutations.aiml
+0,^ SALUT ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ HELLO ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ YO ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ SALUTATION ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ SALUTATIONS ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ BONSOIR ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ COUCOU ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ S'LUT ^,*,*,<srai><star/> BONJOUR <star index="2"/></srai>,salutations.aiml
+0,^ WESH ^,*,*,Wesh wesh s'pèce de bol0$$,salutations.aiml
+0,^ AU REVOIR ^,*,*,<srai>GETTIME</srai>#NewlinePasse une bonne <condition name="heure">#Newline    <li value="jour">journee#Comma</li>#Newline    <li value="soir">soiree#Comma</li>#Newline    <li value="nuit">nuit#Comma</li>#Newline</condition>#Newline<random>#Newline<li>tu vas me manquer</li>#Newline<li>reviens vite</li>#Newline<li>adios</li>#Newline<li>au revoir</li>#Newline<li>#Newline</li>#Newline</random><condition name="username"><li value="*"> <get name="username"/> !</li></condition> (T×T ),salutations.aiml
+0,^ BONNE JOURNEE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ BONNE SOIREE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ ADIEU ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ BYE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ JE DOIS Y ALLER ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ JE M'EN VAIS ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ JE PARS ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ JE TE LAISSE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ JE T'ABANDONNE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ A DEMAIN ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ A TOUT A L'HEURE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ A BIENTÔT ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ A PLUS ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ A TOUTE ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml
+0,^ CIAO ^,*,*,<srai><star/> AU REVOIR <star index="2"/></srai>,salutations.aiml

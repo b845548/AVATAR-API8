@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>QUI EST *</pattern>
+<template><star/> est ce que tu veux en faire.</template>
+</category>
+
+<category><pattern>QUI SONT *</pattern>
+<template>Qui sont ces serpents qui sifflent sur vos tetes ?</template>
+</category>
+
+<category><pattern>QUESTION</pattern>
+<template>Je t'en poses moi des questions ?!</template>
+</category>
+
+<category><pattern>QUE *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+<category><pattern>QU'EST-CE *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+
+<category><pattern>QUI *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+<category><pattern>A QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>POUR QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>DE QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>CHEZ QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>SUR QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>DEVANT QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>DERRIERE QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>PAR QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>AVEC QUI *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+
+<category><pattern>QUAND *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+<category><pattern>POUR QUAND *</pattern>
+<template><srai>QUI <star/></srai></template>
+</category>
+<category><pattern>DEPUIS QUAND *</pattern>
+<template><srai>QUAND <star/></srai></template>
+</category>
+
+<category><pattern>QUOI *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+<category><pattern>DE QUOI *</pattern>
+<template><srai>QUOI <star/></srai></template>
+</category>
+<category><pattern>A QUOI *</pattern>
+<template><srai>QUOI <star/></srai></template>
+</category>
+<category><pattern>EN QUOI *</pattern>
+<template><srai>QUOI <star/></srai></template>
+</category>
+
+<category><pattern>OU *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+
+<category><pattern>COMMENT *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+
+<category><pattern>^ QUEL *</pattern>
+<template><srai>QUESTION</srai></template>
+</category>
+<category><pattern>^ QUELLE *</pattern>
+<template><srai><STAR/> QUEL <star INDEX="2"/></srai></template>
+</category>
+<category><pattern>^ QUELS *</pattern>
+<template><srai><STAR/> QUEL <star INDEX="2"/></srai></template>
+</category>
+<category><pattern>^ QUELLES *</pattern>
+<template><srai><STAR/> QUEL <star INDEX="2"/></srai></template>
+</category>
+
+
+<category><pattern>POURQUOI ^</pattern>
+<template>Parce que :p</template>
+</category>
+<category><pattern>PARCE QUE ^</pattern>
+<template>Pourquooooiii ?</template>
+</category>
+
+</aiml>

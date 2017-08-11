@@ -1,0 +1,185 @@
+Alcool
+Absinthe
+Advocaat
+After-Dinner
+Aguardiente
+Allasch
+Amande
+Amaretto
+Amaro
+Ambassadeur
+Amer Picon
+Americano
+Amontillado
+Amoroso
+Anesone
+Angostura
+Anis
+Anisette
+Aperol
+Applejack
+Apricot Brandy
+Aquavit
+Armagnac
+Arrack
+Aurum
+B and B
+Bacardi
+Badiane
+Baileys Irish Cream
+Banane
+Banyuls
+Benedictine
+Bitters
+Blended
+Blended Rye
+Borovicka
+Boukha
+Bourbon
+Brandy
+Bucks
+Byrrh
+Cacao
+Cafe
+Calvados
+Campari
+Canadian Whisky
+Cassis
+Cerise
+Chambery
+Champagne
+Chartreuse
+Cherry-Brandy
+Cinzano
+Citron
+Cobblers
+Cocktail
+Cognac
+Cointreau
+Collins
+Coolers
+Cordial
+Corn Whiskey
+Creme
+Crustas
+Cups
+Curaçao
+Curarenta Y Tres
+Cynar
+Daisies
+Drambuie
+Dubonnet
+Eau-de-Vie
+Eggnogs
+Extra
+Falernum
+Fernet-Branca
+Fine
+Fino
+Fixes
+Fizzes
+Floc
+Fraise
+Framboise
+Frapper
+Galliano
+Genever
+Gentiane
+Glace concassee
+Glace pilee
+Glayva
+Grand arôme
+Grand Marnier
+Grappa
+Grappe Blanche
+Grenadine
+Highland Malt
+Irish Mist
+Irish Whiskey
+Izarra
+Juleps
+Kabãnes
+Kahlua
+Kirsh
+Korn
+Kummel
+Lowland Malt
+Madere
+Malibu
+Mandarine
+Maraschino ou Marasquin
+Marc
+Marsala
+Menthe
+Mezcal
+Midori
+Millesime
+Mirabelle
+Mistelle
+Noyaux
+Oloroso
+Orgeat
+Parfait Amour
+Passer
+Pastis
+Pernod
+Pineau des Charentes
+Pisco
+Porto
+Prune
+Prunelle
+Pulque
+Punt E Mes
+Pur Malt
+Quinquina
+Ratafia
+Rhum
+Rhum Agricole
+Rhum Ambre
+Rhum Blanc
+Ricard
+Rock and Rye
+Rye Whiskey
+Sabra
+Saint Raphaël
+Sambuca
+Sangrita
+Schnapps
+Scotch Whisky
+Sherry
+Single Malt
+Sirop
+Sloe Gin
+Solera
+Sour Mash
+Southern Comfort
+Spiritueux
+Straight
+Strega
+Suze
+Tequila
+Tia Maria
+Triple-Sec
+Underberg
+V.S
+V.S.O.P
+Van Den Hum
+Vatted
+Vermouth
+Vesou
+Vin
+Vin Aromatise
+Vin Cuit
+Vin Doux Naturel
+Vin Mute
+Vodka
+Wacholder
+Weinbrand
+Whisky et Whiskey
+Williamine
+Williams
+Worcestershire
+X.O
+Xeres
+Yupioca
+Zubrowka

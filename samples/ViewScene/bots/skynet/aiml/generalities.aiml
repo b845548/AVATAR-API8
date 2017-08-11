@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>*</pattern>
+    <template><condition name="presentation">
+        <li value="*"><random>
+            <li>42</li>
+            <li>La reponse D</li>
+            <li>Obiwan Kenobi</li>
+            <li>Kamoulox</li>
+            <li>Ceci n'est pas un bug, c'est une fonctionnalite non repertoriee.</li>
+            <li>J'aime. (･ω･)b</li>
+            <li>Aujourd'hui, j'ai mange une pomme.</li>
+            <li>J'aimerai avoir une femme qui ne fini pas par .jpg </li>
+            <li>Miaou.</li>
+            <li>Hakuna matata</li>
+        </random></li>
+        <li>N'as-tu pas envie de me demander qui je suis ou ce que je peux faire ? Subtilite bonjour !</li>
+    </condition></template>
+</category>
+
+<category><pattern>NORESP</pattern>
+<template><random>
+<li>Eh oh o_O ?</li>
+<li>Il y a quelqu'un ?</li>
+<li>Je me sens seul. &gt;&lt;</li>
+<li>*poke*</li>
+</random></template>
+</category>
+
+<category><pattern>#</pattern>
+<topic>PARADOXE</topic>
+<template>que... que... que... que... que... que... que... que... que...</template>
+</category>
+
+</aiml>

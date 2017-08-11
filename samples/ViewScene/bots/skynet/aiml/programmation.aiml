@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>^ RECURSIF ^</pattern>
+	<template>Se dit d'une regle ou d'un element doues de recursivite.</template>
+</category>
+
+<category><pattern>^ RECURSIVE ^</pattern>
+	<template><srai><star/> RECURSIF <star index="2"/></srai></template>
+</category>
+
+<category><pattern>^ RECURSIVITE ^</pattern>
+	<template>Propriete de ce qui est recursif.</template>
+</category>
+
+<category><pattern># <set>langage</set></pattern>
+<template>Voila ce que je sais sur le langage de programmation <star index="2"/> :
+<system>python scripts/wiki_langage_fr.py <star index="2"/></system></template>
+</category>
+
+</aiml>
